@@ -10,7 +10,7 @@ function App() {
             backgroundImage: `url("https://wallup.net/wp-content/uploads/2019/09/445962-green-leaf-dew-nature-walppaper-branch-tree-macro.jpg")` 
           }}>
             
-                <div className='bg-green-200 border-green-800 shadow-xl border-2 rounded-xl p-4 '>
+                <div className='bg-green-200 shadow-xl shadow-green-900 border-green-800 shadow-xl border-2 rounded-xl p-4 '>
                     <Timer />
 
                 </div>

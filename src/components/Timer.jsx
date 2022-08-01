@@ -33,7 +33,7 @@ const stop=()=>{
 };
     return (
 
-        <div className='bg-gray-200   border-2 rounded-xl p-4 '>
+        <div className='bg-gray-200  shadow-xl shadow-green-500 border-2 rounded-xl p-4 '>
             <h1 className=' text-2xl font-bold flex justify-center'>COUNTDOWN</h1>
            
             <h1 className='flex justify-center text-8xl font-bold'>{hours<10?"0"+hours:hours}:{minutes<10?"0"+minutes:minutes}:{seconds<10?"0"+seconds:seconds}</h1>
